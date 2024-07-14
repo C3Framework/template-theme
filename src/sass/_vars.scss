@@ -1,0 +1,27 @@
+body {
+    --default-icon-color: var(--gray23);
+    --custom-ace-icon-color: var(--gray20);
+    --custom-ace-overlay-icon-color: var(--gray20);
+    --default-layer-color: var(--gray12);
+    --window-caption-active-color: var(--gray7);
+    --window-caption-inactive-color: var(--gray6);
+    --c3logo-type: dark;
+    --window-border-size: 8px;
+    --window-thin-border-size: 1px;
+    /* must be in #000000 syntax */
+    --project-item-icon-color: #2fcc63;
+    --effect-icon-color: #b56bff;
+    --family-overlay-icon-color: #ddf92b;
+    --invert-icon-color: #f85753;
+}
+
+
+body,
+#startPage2Wrap,
+#exampleBrowserWrap {
+    overflow: auto;
+    display: flex;
+    color: var(--gray26) !important;
+    background: var(--gray7);
+    user-select: none;
+}

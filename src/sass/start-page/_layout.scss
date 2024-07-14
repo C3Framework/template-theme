@@ -1,0 +1,50 @@
+#startPage2Wrap {
+
+    /* ================ SETTINGS ================ */
+    & {
+        /* -------- BASE -------- */
+        --windowPaddingH-base: 5%;
+        --windowPaddingV-base: 24px;
+        --gutter: 8px;
+        --smallGutterV-base: 16px;
+        --mediumGutterV-base: 24px;
+        --bigGutterV-base: 44px;
+
+        --windowMinWidth: 160px;
+        --windowMaxWidth: calc(55ch * 4);
+
+        /* -------- BREAKPOINT A -------- */
+        --windowPaddingH-breakpointA: 32px;
+        --windowPaddingV-breakpointA: 28px;
+        --bigGutterH-breakpointA: 24px;
+        --mediumGutterV-breakpointA: 24px;
+        --bigGutterV-breakpointA: 44px;
+
+        /* -------- BREAKPOINT B -------- */
+        --windowPaddingH-breakpointB: 40px;
+        --windowPaddingV-breakpointB: 36px;
+        --bigGutterH-breakpointB: 36px;
+        --mediumGutterV-breakpointB: 24px;
+        --bigGutterV-breakpointB: 44px;
+    }
+
+    /* ================ VARIABLES ================ */
+    & {
+        /* -------- BASE -------- */
+        --\\doubleGutter: calc(var(--gutter) * 2);
+
+        --\\smallGutterV-base: calc(var(--smallGutterV-base) - var(--\\doubleGutter));
+        --\\mediumGutterV-base: calc(var(--mediumGutterV-base) - var(--\\doubleGutter));
+        --\\bigGutterV-base: calc(var(--bigGutterV-base) - var(--\\doubleGutter));
+
+        /* -------- BREAKPOINT A -------- */
+        --\\bigGutterH-breakpointA: calc(var(--bigGutterH-breakpointA) - var(--\\doubleGutter));
+        --\\mediumGutterV-breakpointA: calc(var(--mediumGutterV-breakpointA) - var(--\\doubleGutter));
+        --\\bigGutterV-breakpointA: calc(var(--bigGutterV-breakpointA) - var(--\\doubleGutter));
+
+        /* -------- BREAKPOINT B -------- */
+        --\\bigGutterH-breakpointB: calc(var(--bigGutterH-breakpointB) - var(--\\doubleGutter));
+        --\\mediumGutterV-breakpointB: calc(var(--mediumGutterV-breakpointB) - var(--\\doubleGutter));
+        --\\bigGutterV-breakpointB: calc(var(--bigGutterV-breakpointB) - var(--\\doubleGutter));
+    }
+}
