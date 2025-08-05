@@ -1,5 +1,3 @@
-import { ThemeConfig } from "c3-framework";
-
 const Config: ThemeConfig = {
   addonType: "theme",
   id: "ExampleAddon",

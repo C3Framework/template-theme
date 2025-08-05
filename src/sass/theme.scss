@@ -1,6 +1,6 @@
-@import 'vars';
-@import 'scrollbars';
+@use 'vars';
+@use 'scrollbars';
 
-@import 'start-page';
-@import 'example-page';
-@import 'editor-page';
+@use 'start-page';
+@use 'example-page';
+@use 'editor-page';
